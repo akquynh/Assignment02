@@ -6,8 +6,8 @@ let value02;
 function largerOrSmaller() {
 
     // Get input from user
-    value01 = parse.Int(prompt('Please enter a number:'));
-    value02 = parse.Int(prompt('Please enter a second number:'));
+    value01 = parseInt(prompt('Please enter a number:'));
+    value02 = parseInt(prompt('Please enter a second number:'));
 
     // Conditional statements to compare the numbers
     if (value01 > value02) {
