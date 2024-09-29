@@ -11,11 +11,11 @@ function largerOrSmaller() {
 
     // Conditional statements to compare the numbers
     if (value01 > value02) {
-        document.body.innerHTML = "The larger number is: " + value01;
+        console.log("The larger number is: " + value01);
     } else if (value02 > value01) {
-        document.body.innerHTML = "The larger number is: " + value02;
+        console.log("The larger number is: " + value02);
     } else {
-        document.body.innerHTML = "Both numbers are equal.";
+        console.log("Both numbers are equal.");
     }
 }
 largerOrSmaller();
